@@ -1,1 +1,1 @@
-You could changer the font!
+You could change the font!
