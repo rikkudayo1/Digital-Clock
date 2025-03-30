@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    background-color: rgb(34, 34, 34);
+}
+.title {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.clock {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.outer-outer {
+    width: 470px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    background-color: black;
+}
+.outer-clock-body {
+    border: 1px solid black;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgb(166, 234, 255);
+}
+.inner-clock-body {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 395px;
+    height: 215px;
+    box-shadow: 0px 0px 54px -23px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 54px -23px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 54px -23px rgba(0,0,0,0.75) inset;
+}
+.time-background {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    height: 175px;
+    border-radius: 10px;
+    background-color: rgb(43, 43, 43);
+    box-shadow: 0px 0px 54px -23px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 54px -23px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 54px -23px rgba(0,0,0,0.75) inset;
+}
+.time-background h1 {
+    color: white;
+    font-size: 50px;
+}
